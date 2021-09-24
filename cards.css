@@ -1,0 +1,40 @@
+.cards {
+	margin: 0 auto;
+	max-width: 1000px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-gap: 20px;
+}
+.card {
+	box-shadow: 0 0 3px rgba(0,0,0,0.1);
+}
+.image__class {
+	width: 100%;
+	display: block;
+	box-shadow: 0 0 10px black;
+}
+.content__card:hover {
+	background-color: #f5bd1f;
+}
+.content__card {
+	line-height: 1.5;
+	font-size: 0.9em;
+	justify-content: space-between;
+	border-bottom: 2px solid black;
+	display: flex;
+}
+.head {
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: "papyrus",fantasy;
+	width: 25%;
+	background-color: #f5bd1f;
+	box-shadow: 0 0 10px black;
+}
+.content {
+	width: 25%;
+	display: block;
+	background-color: #f5bd1f;
+	box-shadow: 0 0 10px black;
+	font-family: "lucida handwriting",cursive;
+}
